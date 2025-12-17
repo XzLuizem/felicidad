@@ -71,6 +71,7 @@ Durante diciembre, `felicidad` se viste de fiesta con:
 - Villancico del programador
 - Regalos de código bajo el árbol
 - Boost navideño extra de felicidad
+- Activa con "🎄", "navidad" o "christmas"
 
 ## 📝 Ejemplo de uso
 

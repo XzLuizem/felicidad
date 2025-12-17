@@ -48,7 +48,7 @@ class Happiness:
 
         self.christmas_messages = [
             "🎄 Que tu código compile en el primer intento esta Navidad",
-            "😶‍🌫️ Jesus está revisando tu código... ¡y le gusta!",
+            "😎 Jesus está revisando tu código... ¡y le gusta!",
             "⭐ Que tus commits sean mergeados sin conflictos",
             "🎁 El mejor regalo: un proyecto sin bugs",
             "❄️ Que esta Navidad sea tan estable como tu producción",
@@ -129,17 +129,17 @@ class Happiness:
     def gratitude(self):
         """Ejercicio de gratitud"""
         things = [
-            "un IDE que funciona",
-            "internet rápido",
+            "el IDE que funciona",
+            "mi internet rápido",
             "una comunidad de desarrolladores solidaria",
-            "documentación bien escrita",
-            "ese mentor que te ayudó",
-            "café ☕",
+            "la documentación bien escrita",
+            "ese mentor que me ayudó",
+            "un café ☕ delicioso",
             "git (para deshacer errores)",
-            "tu computadora que no se ha prendido fuego",
+            "mi computadora que no se ha prendido fuego",
             "ese código que funcionó a la primera",
         ]
-        print(f"\n🙏 Hoy agradecemos por:")
+        print(f"\n🙏 Padre Celestial hoy te agradecemos por:")
         for i in range(3):
             print(f"   • {random.choice(things)}")
         self.boost(7)
@@ -178,11 +178,11 @@ class Happiness:
         # Árbol de Navidad ASCII
         tree = """
             ⭐
-           🎄🎄🎄
-          🎄🎄🎄🎄🎄
-         🎄🎄🎄🎄🎄🎄🎄
-        🎄🎄🎄🎄🎄🎄🎄🎄🎄
-       🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄
+           🎄🎄
+          🎄🎄🎄
+         🎄🎄🎄🎄
+        🎄🎄🎄🎄🎄
+       🎄🎄🎄🎄🎄🎄
             |||
             |||
         """
@@ -214,7 +214,7 @@ class Happiness:
         print("   ♪ Duerme en paz, duerme en paz ♪")
 
         # Boost navideño extra
-        print("\n😶‍🌫️ ¡Jesus te dio un boost navideño!")
+        print("\n😎 ¡Jesus te dio un boost navideño!")
         self.boost(25)
 
         print("\n🎄 ¡Felices fiestas y feliz código! 🎄\n")
