@@ -11,7 +11,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="felicidad",
-    version="1.0.1",
+    version="1.0.0",
     author="XzLuizem",
     author_email=" luism.jim7@gmail.com",
     description="Tu dosis diaria de felicidad programática 💖",
